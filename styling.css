@@ -4,7 +4,6 @@
 body {
   background-color: #d5e1ef;
   font-family: "Outfit";
-  height: calc(100vh - 50px);
   display: flex;
   flex-direction: column;
   margin: 25px;
@@ -26,6 +25,7 @@ body {
 .content{
   flex: 1;
   display: flex;
+  height: 100vh;
   justify-content: center;
   align-items: center;
 }
